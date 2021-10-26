@@ -44,3 +44,25 @@ textarea{
     width: 100%;
     border: none !important;
 }
+
+.footer_top{
+    background-color: #3a546d;
+}
+
+.footer_top span{
+    color: #1abc9c !important;
+    cursor: pointer;
+}
+
+.footer_bottom{
+    color: white;
+    font-size: 14px;
+    background-color: #2c3e50;
+}
+
+.rounded_div{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
