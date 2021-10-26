@@ -142,14 +142,23 @@
     </div>
     <div class="container-xl d-flex justify-content-center">
         <div class="col-md-8 col-sm-12 col-12 mt-3">
-            <input type="text" placeholder="Name">
-            <hr class="form_hr">
-            <input type="mail" placeholder="Email Address">
-            <hr class="form_hr">
-            <input type="tel" placeholder="Phone Number">
-            <hr class="form_hr">
-            <textarea name="Message" id="1" rows="4" placeholder="Message"></textarea>
-            <hr class="form_hr">
+            <div class="form-floating pb-1 border-0 border-bottom rounded-0">
+                <input type="text" class="form-control" id="floatingName" placeholder="Name">
+                <label for="floatingPassword">Name</label>
+            </div>
+            <div class="form-floating pb-1 border-0 border-bottom rounded-0">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email Address</label>
+            </div>
+            <div class="form-floating pb-1 border-0 border-bottom rounded-0">
+                <input type="tel" class="form-control" id="floatingTel" placeholder="Tel">
+                <label for="floatingTel">Tel</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control mb-1 border-0 border-bottom rounded-0" placeholder="Leave a comment here" id="floatingTextarea2"
+                    style="height: 150px"></textarea>
+                <label for="floatingTextarea2">Message</label>
+            </div>
             <button type="button" class="btn jumbo_style text-white mb-5">Send</button>
         </div>
     </div>
